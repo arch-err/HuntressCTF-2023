@@ -1,0 +1,8 @@
+extract the archive
+
+The guide said a sketchy site, so maybe:
+grep -R sketchy
+
+yup...
+https://sketchysite.github.io/
+got flag...
