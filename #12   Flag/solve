@@ -1,0 +1,2 @@
+Nmap, find port 8888
+nc the port, pipe into a file, flag was the last output

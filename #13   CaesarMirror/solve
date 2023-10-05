@@ -1,0 +1,2 @@
+vim g?? for rot 13, then mirror the text
+couldve used tac, but didnt have time for a full on script, so i just used vim
