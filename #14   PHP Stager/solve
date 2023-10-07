@@ -1,0 +1,7 @@
+Switch out the variable names to something more understandable - Maybe automate this in the future?
+understand the code
+Run code (in web) - Need to set up php test env (and other langs)
+get inner code
+find revshell at bottom, base64dec
+find weird string, uudecode
+flag!

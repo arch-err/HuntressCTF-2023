@@ -1,0 +1,4 @@
+Its a wav file with tones from a dialing phone -> Google for earlier ctfs
+found "dtfm", find script for it
+run script, get numbers
+from dec to hex, to ascii
