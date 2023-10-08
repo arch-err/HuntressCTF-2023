@@ -1,0 +1,12 @@
+Just from the prompt it was obvious ur supposed to do something with firefox
+
+unpack the tarball, its a whole linux file system
+
+yeah, there must be a .mozilla folder in the home dir, surely ur supposed to get the passwords stored in firefox.
+
+Im so right. but idk how to do it...
+
+https://andrea0.medium.com/insider-write-up-hackthebox-dc088331859
+will help me
+
+used the tool in the writeup and got the flag

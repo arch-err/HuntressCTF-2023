@@ -1,0 +1,7 @@
+file comprezz
+
+searched for the result, says its a .z file
+yay -S uncompress
+uncompress comprezz.z
+flag
+First Blood!!!
